@@ -19,10 +19,10 @@ start:
 
 	loop:
 	; ler a porta B
-	lds r16, PINB ; PINB são os pinos de entrada de PORT B
+	in r16, PINB ; PINB são os pinos de entrada de PORT B
 	ldi r17, 15 ; r17 <- 15
 	; soma 15 em PORT B
 	add r16, r17 ; r16 <- r16 + r17
 
-	OUT PORTD, r16 ; PORT D recebe a soma
-	rjmp loop ; volta
+	OUT PORTD, r16 ; PORT D são os pinos para saída
+	jmp loop ; volta pro loop
