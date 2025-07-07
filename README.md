@@ -1,1 +1,2 @@
 # Microcontroladores
+Disciplina de microcontroladores da Universidade Federal de Santa Maria (UFSM). Objetivos: Compreender o funcionamento e a programação de microcontroladores. Conhecer e saber utilizar programaticamente os componentes de memória e periféricos de um microcontrolador. Projetar sistemas utilizando microcontroladores e seus periféricos, tais como temporizadores, geração de sinal por modulação de largura de pulso (PWM), conversão analógicodigital (A/D) e digital-analógico (D/A), interfaceamento de sensores e atuadores, comunicação serial de dados.
